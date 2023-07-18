@@ -1,5 +1,7 @@
 import './style.css'
-import { setupCounter } from './counter.js'
+import {initializeApp} from './app'
+
+initializeApp()
 
 document.querySelector('#app').innerHTML = /*html*/`
 
@@ -9,10 +11,8 @@ document.querySelector('#app').innerHTML = /*html*/`
       <span class="shrink-btn">
         <i class='bx bx-chevron-left'></i>
       </span>
-      <img src="./img/logo.png" class="logo" alt="">
       <h3 class="hide">Gudia</h3>
     </div>
-
     <div class="search">
       <i class='bx bx-search'></i>
       <input type="text" class="hide" placeholder="Quick Search ...">
@@ -172,4 +172,3 @@ document.querySelector('#app').innerHTML = /*html*/`
     </div>
   </section>
 `
-setupCounter(document.querySelector('#counter'))
