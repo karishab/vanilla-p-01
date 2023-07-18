@@ -1,7 +1,7 @@
 import './style.css'
 import {initializeApp} from './app'
 
-initializeApp()
+
 
 document.querySelector('#app').innerHTML = /*html*/`
 
@@ -172,3 +172,4 @@ document.querySelector('#app').innerHTML = /*html*/`
     </div>
   </section>
 `
+initializeApp()
