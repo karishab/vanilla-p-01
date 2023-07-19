@@ -132,19 +132,6 @@ document.querySelector('#app').innerHTML = /*html*/`
     </div>
   </nav>
   <main>
-    <h1 class="teyping">
-      <span>L</span>
-      <span>I</span>
-      <span>G</span>
-      <span>H</span>
-      <span>T</span>
-      <span>I</span>
-      <span>N</span>
-      <span>G</span>
-    </h1>
-    <p class="text">
-      Coming Soon...
-    </p>
     <p class="copyright">
       &copy; 2023-24 - <span>DCI-Salar</span> All Rights Reserved.
     </p>
