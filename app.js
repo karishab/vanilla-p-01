@@ -91,7 +91,7 @@ export const initializeApp = () => {
     const sendChatBtn = document.querySelector(".chat-input span");
 
     let userMessage = null;
-    const API_KEY = "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";
+    const API_KEY = "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";
     const inputInitHeight = chatInput.scrollHeight;
 
     const createChatLi = (message, className) => {
